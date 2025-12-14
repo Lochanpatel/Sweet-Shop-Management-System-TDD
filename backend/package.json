@@ -9,6 +9,7 @@
     "test:watch": "jest --watch",
     "migrate": "npx prisma migrate dev --name init",
     "seed": "ts-node prisma/seed.ts"
+    ,"vercel-build": "npx prisma generate && tsc -p tsconfig.json"
   },
   "dependencies": {
     "@prisma/client": "^5.0.0",
@@ -16,7 +17,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0"
+    "jsonwebtoken": "^9.0.0",
+    "serverless-http": "^3.0.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",

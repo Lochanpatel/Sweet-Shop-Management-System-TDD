@@ -8,6 +8,7 @@ dotenv.config();
 import { PrismaClient } from '@prisma/client';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
+import serverless from 'serverless-http';
 
 // --- CONFIG ---
 const app = express();
@@ -186,4 +187,12 @@ if (process.env.NODE_ENV !== 'test') {
   });
 }
 
-export default app; // Export for testing
+// Export the Express `app` for testing
+export { app };
+
+// Export a serverless handler for platforms like Vercel
+export const handler = serverless(app);
+
+// Default export should be the serverless handler so platforms like Vercel
+// pick it up automatically when importing the module.
+export default handler as any;
