@@ -198,15 +198,12 @@ Sweet-Shop-Management-System/
 ✅ Backend API complete
 ✅ Authentication & Inventory
 ✅ Admin features
-⚠️ Deployment optional
 
 ---
 
 ## 🙌 Author
 
 **Lochan Patel**
-Chandigarh University
-
 ---
 
 ⭐ If you like this project, feel free to star the repository!
