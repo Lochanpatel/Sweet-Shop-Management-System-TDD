@@ -96,7 +96,7 @@ A full‑stack **Sweet Shop Management System** built as part of a **TDD Kata**,
 
 ### 🛒 Purchase Sweet
 
-![Purchase](screenshots/09-purchase.png)
+![Purchase]([screenshots/09-purchase.png](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/main/Screenshots/Screenshot%202025-12-14%20165902.png?raw=true))
 
 ---
 
