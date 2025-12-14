@@ -68,31 +68,31 @@ A full‑stack **Sweet Shop Management System** built as part of a **TDD Kata**,
 
 ### 🔍 Search & Category Filter
 
-![Search](screenshots/02-search-filter.png)
+![Search](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20165946.png)
 
 ### 🔐 Login Page
 
-![Login](screenshots/03-login.png)
+![Login](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20165959.png)
 
 ### 📝 Register Page
 
-![Register](screenshots/04-register.png)
+![Register](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20170004.png)
 
 ### 🛠️ Admin – Add New Sweet
 
-![Add Sweet](screenshots/05-admin-add-sweet.png)
+![Add Sweet](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20170113.png)
 
 ### 📦 Inventory Management
 
-![Inventory](screenshots/06-inventory.png)
+![Inventory](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20170105.png)
 
 ### 🔄 Restock Sweet
 
-![Restock](screenshots/07-restock.png)
+![Restock](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20170139.png)
 
 ### 🗑️ Delete Sweet Confirmation
 
-![Delete](screenshots/08-delete-confirm.png)
+![Delete](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20170148.png)
 
 ### 🛒 Purchase Sweet
 
