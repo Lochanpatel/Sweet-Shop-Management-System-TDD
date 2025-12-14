@@ -1,5 +1,9 @@
 import express from 'express';
 import cors from 'cors';
+import dotenv from 'dotenv';
+
+// Load environment variables from .env for local development
+dotenv.config();
 // @ts-ignore
 import { PrismaClient } from '@prisma/client';
 import jwt from 'jsonwebtoken';
@@ -141,7 +145,7 @@ app.post('/api/sweets/:id/purchase', async (req, res) => {
   const qtyToBuy = quantity || 1;
 
   try {
-    const result = await prisma.$transaction(async (tx) => {
+    const result = await prisma.$transaction(async (tx: any) => {
       const sweet = await tx.sweet.findUnique({ where: { id } });
       if (!sweet) throw new Error('Sweet not found');
       if (sweet.quantity < qtyToBuy) throw new Error('Insufficient stock');
