@@ -62,10 +62,6 @@ A full‑stack **Sweet Shop Management System** built as part of a **TDD Kata**,
 
 ## 📸 Screenshots
 
-### 🏠 Sweet Shop Dashboard
-
-![Dashboard](screenshots/01-dashboard.png)
-
 ### 🔍 Search & Category Filter
 
 ![Search](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20165946.png)
@@ -93,6 +89,11 @@ A full‑stack **Sweet Shop Management System** built as part of a **TDD Kata**,
 ### 🗑️ Delete Sweet Confirmation
 
 ![Delete](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/aeb17aff299a7dff1deb45ac5d093c34d22ff37d/Screenshots/Screenshot%202025-12-14%20170148.png)
+
+### 🏠 Update Sweet
+
+![Dashboard](https://github.com/Lochanpatel/-Sweet-Shop-Management-System/blob/151a8229a8cee6e6472df1fb16d8d27afa104ce1/Screenshots/Screenshot%202025-12-14%20172923.png)
+
 
 ### 🛒 Purchase Sweet
 
