@@ -106,7 +106,7 @@ A full‑stack **Sweet Shop Management System** built as part of a **TDD Kata**,
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/Lochanpatel/Sweet-Shop-Management-System.git](https://github.com/Lochanpatel/Sweet-Shop-Management-System-TDD
+git clone git clone https://github.com/Lochanpatel/Sweet-Shop-Management-System-TDD.git
 cd Sweet-Shop-Management-System
 ```
 
