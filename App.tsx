@@ -11,7 +11,9 @@ const MOCK_DB_SWEETS: Sweet[] = [
   { id: 4, name: 'Licorice Wands', category: 'Hard Candy', price: 3.00, quantity: 0 },
 ];
 
-const API_URL = 'http://localhost:3001/api';
+const localHosts = new Set(['localhost', '127.0.0.1']);
+const envApiUrl = import.meta.env.VITE_API_URL?.trim();
+const API_URL = envApiUrl || (localHosts.has(window.location.hostname) ? 'http://localhost:3001/api' : '/api');
 
 const useAuth = () => {
   const [token, setToken] = useState<string | null>(localStorage.getItem('token'));
@@ -183,7 +185,7 @@ export default function App() {
           <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-6 flex justify-between items-center" role="alert">
             <div>
               <strong className="font-bold">Backend Disconnected! </strong>
-              <span className="block sm:inline">Run `npm run start` in the backend folder.</span>
+              <span className="block sm:inline">Could not reach the API. If deployed, set `VITE_API_URL` to your backend URL. For local development, run backend on port 3001.</span>
             </div>
             <button 
               onClick={() => { setIsMockMode(true); setBackendStatus('unknown'); }}
