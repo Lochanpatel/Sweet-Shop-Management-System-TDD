@@ -9,8 +9,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "migrate": "npx prisma migrate dev --name init",
-    "seed": "ts-node prisma/seed.ts"
-    ,"vercel-build": "npx prisma generate && tsc -p tsconfig.json"
+    "seed": "ts-node prisma/seed.ts",
+    "vercel-build": "npx prisma generate && tsc -p tsconfig.json"
   },
   "dependencies": {
     "@prisma/client": "^5.0.0",
