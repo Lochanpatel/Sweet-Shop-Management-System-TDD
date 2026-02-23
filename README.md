@@ -192,6 +192,21 @@ Sweet-Shop-Management-System/
 
 ---
 
+
+## ☁️ Vercel Deployment (Frontend + Backend)
+
+If your Vercel UI looks different or always shows **Backend Disconnected**, configure frontend and backend as separate projects:
+
+1. Deploy **backend** with Root Directory = `backend/`.
+2. Set backend env vars: `DATABASE_URL`, `JWT_SECRET`.
+3. Deploy **frontend** from repo root.
+4. In frontend project env vars, set:
+   - `VITE_API_URL=https://<your-backend-vercel-domain>/api`
+
+Without `VITE_API_URL`, deployed frontend falls back to `/api`, which only works if API routes are available on the same deployment.
+
+---
+
 ## 🏁 Status
 
 ✅ Frontend complete
